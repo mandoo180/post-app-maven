@@ -1,0 +1,18 @@
+refers to maven.org site. everything is there...
+
+maven is based on the concept of build lifecycles
+a lifecycle is a pre-defined group of build steps called pahses
+each phase can be bound to one or more plugin goals
+keep in mind all work done in Maven is done by plugins
+lifecycles and phase provide the framework to call plugin goals in a sequence
+
+maven plugins - can config using pom.xml for each plugin
+mvn clean
+mvn site
+mvn resources
+mvn compiler
+mvn surefire
+mvn jar
+mvn install
+mvn deploy
+
